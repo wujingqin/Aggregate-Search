@@ -1,5 +1,4 @@
 <template>
-  {{ JSON.stringify(postList) }}
   <a-list item-layout="horizontal" :data-source="props.postList">
     <template #renderItem="{ item }">
       <a-list-item>
